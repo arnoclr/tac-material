@@ -1,6 +1,12 @@
 # Tarteaucitron Material Theme
 
-![Cookie Banner](https://i.imgur.com/Io6NeHc.png)
+New snackbar design (only bottom) :
+![Cookie Banner](https://i.imgur.com/FCkOW5A.png)
+
+Services dialog also comes with refreshed UI :
+![Services Dialog](https://i.imgur.com/6jnxIDZ.png)
+
+HTML code :
 
 ```html
 <head>
@@ -49,4 +55,14 @@
         });
     </script>
 </body>
+```
+
+You can customize colors (the blue accent color) with css variables. 
+
+```css
+:root {
+    --snackbar-link-color: #669df6;
+    --snackbar-primary-color: #1a73e8;
+    --snackbar-border-radius: 4px;
+}
 ```
