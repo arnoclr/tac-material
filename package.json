@@ -1,0 +1,20 @@
+{
+  "name": "material-design-theme-tac",
+  "version": "1.0.0",
+  "description": "Material design theme for tarteaucitron (GPDR cookie manager)",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "npx clean-css-cli src/tarteaucitron.css -o dist/tarteaucitron.min.css"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Aryqs-Ipsum/tac-material.git"
+  },
+  "author": "Arno Cellarier",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/Aryqs-Ipsum/tac-material/issues"
+  },
+  "homepage": "https://github.com/Aryqs-Ipsum/tac-material#readme"
+}
