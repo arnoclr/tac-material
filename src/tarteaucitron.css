@@ -84,7 +84,6 @@ Services
 */
 #tarteaucitronServices {
     padding: 0;
-    height: 100% !important;
     margin: 16px auto;
     max-width: 700px;
     border-radius: 8px;
@@ -239,5 +238,6 @@ Media queries
     #tarteaucitronServices {
         margin: 0;
         border-radius: 0;
+        height: 100% !important;
     }
 }
