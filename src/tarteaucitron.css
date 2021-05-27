@@ -3,6 +3,7 @@
 :root {
     --snackbar-link-color: #669df6;
     --snackbar-primary-color: #1a73e8;
+    --snackbar-primary-trans: #1a73e82f;
     --snackbar-border-radius: 4px;
 }
 
@@ -211,6 +212,16 @@ Typography
 }
 .tarteaucitronName a:hover {
     text-decoration: underline;
+}
+
+/* 
+button coloration
+*/
+.tarteaucitronIsDenied .tarteaucitronDeny,
+.tarteaucitronIsAllowed .tarteaucitronAllow {
+    background-color: var(--snackbar-primary-trans) !important;
+    border-color: var(--snackbar-primary-color) !important;
+    filter: brightness(0.8);
 }
 
 /*
